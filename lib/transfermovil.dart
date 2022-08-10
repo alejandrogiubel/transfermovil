@@ -32,11 +32,10 @@ class Transfermovil {
         },
         type: 'text/plain',
       );
-      final canResolve = await intent.canResolveActivity();
-      if (canResolve != null && canResolve) {
+      try {
         intent.launch();
-      } else {
-        throw Exception('Transfermóvil application not found');
+      } on Exception catch (e) {
+        throw Exception(e);
       }
     } else {
       throw Exception('Target OS is not Android');
