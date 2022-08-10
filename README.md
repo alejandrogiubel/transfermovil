@@ -15,12 +15,11 @@ Just add this to your `pubspec.yaml`:
 ```
 
 ```dart
-Transfermovil.makeOnlinePayment(transactionId: 1
-,
-amount: 1
-,
-currency: Currency.cuc,providerNumber: 1
-,
+Transfermovil.makeOnlinePayment(
+  transactionId: 1,
+  amount: 1,
+  currency: Currency.cuc,
+  providerNumber: 1,
 );
 ```
 
