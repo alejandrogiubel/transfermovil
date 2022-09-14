@@ -12,7 +12,7 @@ Just add this to your `pubspec.yaml`:
 
 ```yaml
   dependencies:
-    transfermovil: ^1.0.0
+    transfermovil: ^1.0.3
 ```
 
 Or
