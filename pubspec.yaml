@@ -1,6 +1,6 @@
 name: transfermovil
 description: A Flutter package to use Transfermóvil online payment method.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/alejandrogiubel/transfermovil
 
 environment:
@@ -17,12 +17,12 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^2.0.0
 
+
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
 flutter:
-
 # To add assets to your package, add an assets section, like this:
 # assets:
 #   - images/a_dot_burr.jpeg
