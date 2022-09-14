@@ -12,6 +12,13 @@ Just add this to your `pubspec.yaml`:
 
 ```yaml
   dependencies:
+    transfermovil: ^1.0.0
+```
+
+Or
+
+```yaml
+  dependencies:
     transfermovil:
       git: https://github.com/alejandrogiubel/transfermovil
 ```
